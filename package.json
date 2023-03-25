@@ -1,0 +1,23 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run --browser chrome --headed --spec 'cypress/e2e/features/**/*.feature'"
+  },
+  "author": "Rangiri Ajay",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e"
+  },
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}

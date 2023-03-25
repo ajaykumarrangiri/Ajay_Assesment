@@ -1,0 +1,32 @@
+{
+    "Login": {
+        "email": "#email",
+        "password": "#password",
+        "loginBtn": "input[name='submit']"
+    },
+    "Home": {
+        "homeTab": "#ui-id-1",
+        "logoutBtn": "input[value='Log out']"
+    },
+    "RequestQuotatuion": {
+        "requestQuoTab": "#ui-id-2",
+        "saveQuotation": "input[value='Save Quotation']"
+    },
+    "RetrieveQuotation": {
+        "retrieveQuoTab": "#ui-id-3",
+        "idInpt": "input[name='id']",
+        "retrieveBtn": "#getquote"
+    },
+    "Profile": {
+        "profileTab": "#profile"
+    },
+    "EditProfile": {
+        "editProfileTab": "#editprofile",
+        "surname": "#user_surname",
+        "firstName": "#user_firstname",
+        "phoneNum": "#user_phone",
+        "yearDOB": "#user_dateofbirth_1i",
+        "yearOpt": "option[value='1994']",
+        "updateUserBtn": "input[value='Update User']"
+    }
+}
